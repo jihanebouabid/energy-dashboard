@@ -1,0 +1,63 @@
+/* styles.css - Custom Dashboard Styling */
+
+/* Global settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashboard container */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #004085; /* Dark blue */
+    margin-bottom: 20px;
+}
+
+/* Dropdown styling */
+#model-selector {
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+/* Graph styling */
+.dash-graph {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Data Table */
+.dash-table-container {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headers */
+h2 {
+    text-align: center;
+    color: #0062cc; /* Bright blue */
+    margin-top: 30px;
+}
+
+/* Improve bar chart colors */
+rect {
+    fill: #007bff; /* Bootstrap blue */
+    stroke: none;
+}
